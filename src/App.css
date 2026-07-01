@@ -118,3 +118,57 @@ button,
   text-align: left;
   margin: 6px 0;
 }
+
+.report-box {
+  background: #f3f7f6;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.report-box p {
+  text-align: left;
+  margin: 6px 0;
+  font-weight: bold;
+}
+
+.filter-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.filter-buttons .btn {
+  margin-top: 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.active-filter {
+  background: #c59b3b !important;
+}
+
+.checked-in {
+  border-left-color: #0f4a4d;
+}
+
+.checked-out {
+  border-left-color: #777;
+}
+
+.qr-box {
+  margin-top: 20px;
+  text-align: center;
+  background: #f3f7f6;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.qr-box h3 {
+  margin-top: 0;
+}
+
+.qr-box canvas {
+  margin: 12px 0;
+}
