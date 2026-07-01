@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f7f6;
+  color: #102d2f;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  margin-top: 0;
+  color: #0f4a4d;
+  text-align: center;
+  white-space: nowrap;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+}
+
+p {
+  text-align: center;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 90px;
+}
+
+button,
+.btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 14px;
+  margin-top: 14px;
+  background: #0f4a4d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondary {
+  background: #c59b3b;
+}
+
+.button-group {
+  display: grid;
+  gap: 12px;
+}
+
+.message {
+  margin-top: 18px;
+  font-weight: bold;
+  color: #0f4a4d;
+}
+
+.back {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  color: #0f4a4d;
+  text-decoration: none;
+}
+
+.admin {
+  background: #333;
+}
+
+.admin-card {
+  max-width: 700px;
+}
+
+.admin-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.admin-item {
+  background: #f3f7f6;
+  padding: 16px;
+  border-radius: 12px;
+  border-left: 5px solid #0f4a4d;
+}
+
+.admin-item p {
+  text-align: left;
+  margin: 6px 0;
+}
